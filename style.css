@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}            
+
+body
+{
+    background-image: url(imagenes/biblioteca.jpg);
+}
+
+h1
+{
+    margin-bottom: 20px;
+}
+.citas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    margin: 300px auto;
+    border-radius: 15px;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(26, 84, 165);
+    border: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: large;
+}
+
+button:hover
+{
+    background-color: rgba(15, 42, 248, 0.881);
+    font-size: xx-large;
+}
+
+.cita-texto #cita-texto
+{
+    padding: 30px;
+    margin-bottom: 20px auto;
+    background-color: rgb(202, 249, 209);
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.cita-texto #cita-autor
+{
+    padding: 10px;
+    margin-bottom: 20px auto;
+    background-color: rgb(90, 236, 112);
+    border-radius: 20px;
+    font-family: cursive;
+}
